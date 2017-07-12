@@ -1,0 +1,20 @@
+{
+  "name": "ffmpeg-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy src/index.js:src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg.js": "^3.1.9001"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^14.4.0",
+    "uglify": "^0.1.5"
+  }
+}
